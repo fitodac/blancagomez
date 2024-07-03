@@ -1,0 +1,17 @@
+{
+  "name": "blancagomez",
+  "version": "1.0.0",
+  "description": "Sitio web Blanca Gómez",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+		"dev": "tailwindcss -i ./wp-content/themes/blanca-gomez/assets/css/main.css -o ./wp-content/themes/blanca-gomez/assets/css/main.min.css --watch"
+  },
+  "author": "fitodac",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.4"
+  }
+}
