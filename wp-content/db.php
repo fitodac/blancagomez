@@ -1,0 +1,1 @@
+/Users/fitodac/Sites/cpi/blancagomez/app/public/wp-content/plugins/query-monitor/wp-content/db.php

@@ -1,0 +1,175 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"patterns": [],
+	"settings": {
+		"appearanceTools": true,
+		"color": {
+			"defaultDuotone": false,
+			"defaultPalette": false,
+			"defaultGradients": false,
+			"duotone": [],
+			"gradients": [],
+			"palette": []
+		},
+		"layout": {},
+		"spacing": {
+			"spacingScale": {},
+			"spacingSizes": []
+		},
+		"typography": {
+			"fluid": true,
+			"fontFamilies": [],
+			"fontSizes": [],
+			"writingMode": false
+		},
+		"useRootPaddingAwareAlignments": true
+	},
+	"styles": {
+		"blocks": {
+			"core/avatar": {
+				"border": {}
+			},
+			"core/button": {},
+			"core/buttons": {},
+			"core/calendar": {},
+			"core/categories": {},
+			"core/code": {},
+			"core/comment-author-name": {},
+			"core/comment-content": {},
+			"core/comment-date": {},
+			"core/comment-edit-link": {},
+			"core/comment-reply-link": {},
+			"core/post-comments-form": {},
+			"core/comments-pagination": {},
+			"core/comments-pagination-next": {},
+			"core/comments-pagination-numbers": {},
+			"core/comments-pagination-previous": {},
+			"core/footnotes": {},
+			"core/gallery": {},
+			"core/image": {},
+			"core/list": {},
+			"core/loginout": {},
+			"core/navigation": {},
+			"core/post-author": {},
+			"core/post-author-name": {},
+			"core/post-date": {},
+			"core/post-excerpt": {},
+			"core/post-featured-image": {},
+			"core/post-terms": {},
+			"core/post-title": {},
+			"core/pullquote": {},
+			"core/query-title": {},
+			"core/query-no-results": {},
+			"core/quote": {},
+			"core/search": {},
+			"core/separator": {},
+			"core/site-tagline": {},
+			"core/site-title": {}
+		},
+		"color": {},
+		"elements": {
+			"button": {
+				":active": {
+					"color": {}
+				},
+				":focus": {
+					"color": {},
+					"outline": {},
+					"border": {}
+				},
+				":hover": {
+					"color": {},
+					"border": {}
+				},
+				"border": {},
+				"color": {},
+				"spacing": {},
+				"typography": {}
+			},
+			"caption": {
+				"color": {},
+				"typography": {}
+			},
+			"h1": {
+				"typography": {}
+			},
+			"h2": {
+				"typography": {}
+			},
+			"h3": {
+				"typography": {}
+			},
+			"h4": {
+				"typography": {}
+			},
+			"h5": {
+				"typography": {}
+			},
+			"h6": {
+				"typography": {}
+			},
+			"heading": {
+				"color": {},
+				"typography": {}
+			},
+			"link": {
+				":hover": {
+					"typography": {}
+				},
+				"color": {}
+			}
+		},
+		"spacing": {},
+		"typography": {}
+	},
+	"templateParts": [
+		{
+			"area": "header",
+			"name": "header",
+			"title": "Header"
+		},
+		{
+			"area": "footer",
+			"name": "footer",
+			"title": "Footer"
+		},
+		{
+			"area": "uncategorized",
+			"name": "sidebar",
+			"title": "Sidebar"
+		},
+		{
+			"area": "uncategorized",
+			"name": "post-meta",
+			"title": "Post Meta"
+		}
+	],
+	"customTemplates": [
+		{
+			"name": "elementor-page",
+			"postTypes": ["page"],
+			"title": "Elementor page"
+		},
+		{
+			"name": "elementor-page-white-navbar",
+			"postTypes": ["page"],
+			"title": "Elementor page White Navbar"
+		},
+		{
+			"name": "agenda",
+			"postTypes": ["page"],
+			"title": "Agenda"
+		},
+		{
+			"name": "descuentos",
+			"postTypes": ["page"],
+			"title": "Descuentos"
+		},
+		{
+			"name": "single-product",
+			"postTypes": ["page", "elementor_library"],
+			"title": "Single product"
+		}
+	]
+}

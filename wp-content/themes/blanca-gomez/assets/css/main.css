@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.entry-content.wp-block-post-content.is-layout-flow.wp-block-post-content-is-layout-flow {
+	margin-top: 0 !important;
+}
+
+.lato-thin {
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+	font-style: normal;
+}
+
+.lato-light {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-style: normal;
+}
+
+.lato-regular {
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.lato-bold {
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-style: normal;
+}
+
+.lato-black {
+	font-family: 'Lato', sans-serif;
+	font-weight: 900;
+	font-style: normal;
+}
+
+.dm-serif-display-regular {
+	font-family: 'DM Serif Display', serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+body * {
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+}
+
+/**
+NAVBAR
+**/
+.navbar-brand {
+	background-image: url('../img/brand-dark.webp');
+	background-size: 97%;
+	font-size: 0;
+	@apply bg-no-repeat bg-center w-28 aspect-square select-none focus:outline-none;
+}
+.navbar-brand * {
+	font-size: 0;
+}
+
+.nav-item {
+	@apply text-black text-sm uppercase select-none focus:outline-none;
+}
+
+.navbar-white .nav-item {
+	@apply text-white;
+}
+
+.navbar-white .navbar-brand {
+	background-image: url('../img/brand.webp');
+}
